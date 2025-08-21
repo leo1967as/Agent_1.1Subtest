@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+*.log
+*.sqlite3
+.env
+.env.*
+.DS_Store
+.vscode/
+.venv/
+# Data/outputs
+*.pkl
+*.json
+# Ignore processed and split cases (optional, comment out if you want to keep)
+processed_cases/
+split_cases/
+# Ignore embeddings and vector db
+embeddings_*.pkl
+legal_vector_db/
+# Jupyter
+.ipynb_checkpoints/
+# OS
+Thumbs.db
